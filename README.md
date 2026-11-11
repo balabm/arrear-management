@@ -2,6 +2,8 @@
 
 A single-page **arrear management** workspace for students: track backlogs, current papers and upcoming exams, study from your own notes with a local AI helper, get deadline alerts, and explore career paths that fit your registered course.
 
+**Live demo:** <https://balabm.github.io/arrear-management/>
+
 ## Run it
 
 No build step or dependencies. Serve the folder over HTTP (localStorage and ES modules need an origin):

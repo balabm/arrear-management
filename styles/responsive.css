@@ -1,0 +1,223 @@
+/* =========================================================
+   Final responsive polish
+   ========================================================= */
+@media (max-width: 1280px) {
+  .welcome-copy h1 {
+    letter-spacing: -0.055em;
+  }
+
+  .page-head h1 {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 900px) {
+  .auth-top {
+    display: none;
+  }
+
+  .welcome-auth {
+    padding-top: 62px;
+  }
+
+  .auth-brand-mobile {
+    position: relative;
+    z-index: 1;
+  }
+
+  .page-head__actions {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 760px) {
+  .topbar__right .date-chip {
+    display: none;
+  }
+
+  .side-card--dark .deadline-stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 16px;
+  }
+}
+
+@media (max-width: 620px) {
+  .welcome-copy h1 {
+    font-size: 44px;
+  }
+
+  .auth-submit {
+    height: 47px;
+  }
+
+  .topbar__right {
+    gap: 6px;
+  }
+
+  .topbar__right .icon-btn {
+    width: 36px;
+    height: 36px;
+  }
+
+  .profile-button {
+    padding: 3px;
+    border: 0;
+    background: transparent;
+  }
+
+  .profile-button .avatar {
+    width: 35px;
+    height: 35px;
+  }
+
+  .profile-popover {
+    right: 15px;
+    left: 15px;
+    width: auto;
+  }
+
+  .guide-side {
+    grid-template-columns: 1fr;
+  }
+
+  .program-card__meta span:last-child {
+    width: 100%;
+  }
+
+  .study-hero__main {
+    align-items: flex-start;
+  }
+
+  .study-hero h2 {
+    font-size: 16px;
+  }
+
+  .notes-panel,
+  .ai-panel {
+    min-height: 0;
+  }
+
+  .ai-panel {
+    min-height: 560px;
+  }
+
+  .note-card__del {
+    opacity: 1;
+  }
+
+  .section-head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .section-head__link {
+    font-size: 9px;
+  }
+
+  .side-card--dark .deadline-stack {
+    grid-template-columns: 1fr;
+  }
+
+  .alert-row__controls {
+    padding-left: 0 !important;
+  }
+
+  .alert-row__copy {
+    min-width: calc(100% - 58px) !important;
+  }
+
+  .alerts-panel__head {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .alerts-panel__head .btn {
+    width: 100%;
+  }
+
+  .guidance-hero h2 {
+    font-size: 24px;
+  }
+
+  .interest-row > span {
+    width: 100%;
+  }
+
+  .records-card {
+    padding: 14px;
+  }
+
+  .table-wrap {
+    margin: 0 -4px;
+  }
+
+  .records-foot {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .records-foot .btn {
+    width: 100%;
+  }
+
+  .toast-root {
+    right: 12px;
+    bottom: 12px;
+    width: calc(100vw - 24px);
+  }
+
+  .modal-backdrop {
+    align-items: flex-end;
+    padding: 10px;
+  }
+
+  .modal {
+    max-height: 92vh;
+    border-radius: 20px;
+  }
+
+  .file-drop {
+    padding: 18px 12px;
+  }
+
+  .auth-card {
+    box-shadow: 0 14px 40px rgba(40, 35, 24, 0.08);
+  }
+}
+
+@media (max-width: 400px) {
+  .welcome-copy h1 {
+    font-size: 39px;
+  }
+
+  .welcome-copy > p {
+    font-size: 12px;
+  }
+
+  .auth-card {
+    padding: 20px 16px;
+  }
+
+  .program-card__stats {
+    flex-wrap: wrap;
+  }
+
+  .program-stat {
+    flex-basis: 33%;
+  }
+
+  .segmented button {
+    font-size: 9.5px;
+    padding: 0 9px;
+  }
+
+  .paper-card {
+    padding: 16px;
+  }
+
+  .kpi-card__value strong {
+    font-size: 22px;
+  }
+}
